@@ -39,6 +39,7 @@ class AppsActivity : BaseActivity() {
         val selected = Store.selectedApps(this)
         val boxes = ArrayList<CheckBox>()
         val card = Ui.card(this)
+
         for (app in apps) {
             val box = Ui.check(this, app.second)
             box.tag = app.first
@@ -48,6 +49,7 @@ class AppsActivity : BaseActivity() {
             boxes.add(box)
             card.addView(box)
         }
+
         root.addView(card)
 
         root.addView(Ui.button(this, getString(R.string.save)) {
@@ -59,3 +61,4 @@ class AppsActivity : BaseActivity() {
             recreate()
         })
     }
+}
