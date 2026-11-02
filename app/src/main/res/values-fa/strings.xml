@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blocker</string>
+    <string name="service_description">مسدودساز کلمه‌ها و دامنه‌های ممنوع را روی صفحه تشخیص می‌دهد و برنامه را می‌بندد.</string>
+
+    <string name="on">روشن</string>
+    <string name="off">خاموش</string>
+    <string name="cancel">انصراف</string>
+    <string name="save">ذخیره</string>
+    <string name="saved">ذخیره شد</string>
+
+    <string name="home_days_left">روز مانده</string>
+    <string name="home_detections">تعداد تشخیص‌ها</string>
+    <string name="home_no_lock">بدون قفل</string>
+    <string name="status_accessibility">دسترس‌پذیری</string>
+    <string name="status_admin">مدیر دستگاه</string>
+    <string name="btn_enable_accessibility">۱) روشن کردن دسترس‌پذیری</string>
+    <string name="btn_enable_admin">۲) فعال کردن مدیر دستگاه</string>
+    <string name="btn_apps">برنامه‌ها</string>
+    <string name="btn_words">کلمه‌ها و دامنه‌ها</string>
+    <string name="btn_stats">آمار</string>
+    <string name="btn_settings">تنظیمات</string>
+    <string name="btn_start_lock">۳) شروع قفل (غیرقابل لغو)</string>
+
+    <string name="lock_days_hint">مدت قفل (روز)</string>
+    <string name="lock_confirm_title">شروع قفل</string>
+    <string name="lock_confirm_msg">تا %1$d روز نمی‌توانی کلمه‌ای حذف کنی، تنظیمات را عوض کنی یا Blocker را غیرفعال کنی. مطمئنی؟</string>
+    <string name="lock_yes">بله، شروع کن</string>
+    <string name="lock_already">قفل از قبل فعال است</string>
+    <string name="lock_blocked">ممنوع: قفل فعال است</string>
+
+    <string name="apps_title">برنامه‌ها</string>
+    <string name="apps_mode_all">همه‌ی برنامه‌ها به‌جز برنامه‌های سیستمی</string>
+    <string name="apps_mode_selected">فقط برنامه‌های انتخاب‌شده</string>
+    <string name="apps_hint">برنامه‌های موردنظر را تیک بزن (برای حالت دوم)</string>
+
+    <string name="words_title">کلمه‌ها و دامنه‌ها</string>
+    <string name="words_hint">هر مورد در یک خط. خطی که نقطه دارد و فاصله ندارد، دامنه حساب می‌شود.</string>
+    <string name="words_load_defaults">افزودن لیست پایه</string>
+    <string name="words_locked_note">قفل فعال است: فقط می‌توانی مورد اضافه کنی.</string>
+
+    <string name="stats_title">آمار</string>
+    <string name="stats_week">۷ روز اخیر</string>
+    <string name="stats_month">۳۰ روز اخیر</string>
+    <string name="stats_total">کل</string>
+    <string name="stats_top">پرتکرارترین‌ها</string>
+    <string name="stats_apps">پرتکرارترین برنامه‌ها</string>
+    <string name="stats_empty">هنوز تشخیصی ثبت نشده</string>
+
+    <string name="settings_title">تنظیمات</string>
+    <string name="warning_text_label">متن هشدار</string>
+    <string name="language_label">زبان</string>
+    <string name="theme_label">تم</string>
+    <string name="theme_system">سیستم</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تاریک</string>
+    <string name="lang_en">English</string>
+    <string name="lang_fa">فارسی</string>
+
+    <string name="warning_title">مسدود شد</string>
+    <string name="warning_default_text">عبارت ممنوع تشخیص داده شد و برنامه بسته شد.</string>
+    <string name="warning_ok">باشه</string>
+</resources>
